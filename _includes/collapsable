@@ -1,23 +1,10 @@
 {% capture title %}{{ include.title }}{% endcapture %}
 {% capture content %}{{ include.content }}{% endcapture %}
-{% capture url %}{{ include.url }}{% endcapture %}
-{% capture url_text %}{{ include.url_text }}{% endcapture %}
 
 
 <div class="collapsable-content">
     <details>
-        <summary> {{ title | markdownify }} </summary>
-        
+        <summary> <h2> {{ title  }} </h2> </summary>
         {{ content | markdownify }}
-
-        {% if url %}
-            <a href="{{ url }}">
-            {% if url_text %}
-                {{ url_text }}
-            {% else %}
-                link
-            {% endif %}
-            </a>
-        {% endif %}
     </details>
 </div>
