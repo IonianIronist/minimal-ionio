@@ -6,9 +6,9 @@
 
 <div class="collapsable-content">
     <details>
-        <summary> {{ title }} </summary>
+        <summary> {{ title | markdownify }} </summary>
         
-        {{ content }}
+        {{ content | markdownify }}
 
         {% if url %}
             <a href="{{ url }}">
