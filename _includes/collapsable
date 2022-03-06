@@ -6,7 +6,7 @@
 
 <div class="collapsable-content">
     <details>
-        <summary> {{ title }} </sumary>
+        <summary> {{ title }} </summary>
         
         {{ content }}
 
