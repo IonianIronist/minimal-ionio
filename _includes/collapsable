@@ -1,4 +1,4 @@
-{% capture title %}{{ include.content }}{% endcapture %}
+{% capture title %}{{ include.title }}{% endcapture %}
 {% capture content %}{{ include.content }}{% endcapture %}
 {% capture url %}{{ include.url }}{% endcapture %}
 {% capture url_text %}{{ include.url_text }}{% endcapture %}
