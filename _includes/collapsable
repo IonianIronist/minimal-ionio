@@ -4,7 +4,7 @@
 
 <div class="collapsable-content">
     <details>
-        <summary> <h2> {{ title  }} </h2> </summary>
+        <summary style="font-size: 1.5em; font-weight: bolder;">{{ title  }}</summary>
         {{ content | markdownify }}
     </details>
 </div>
